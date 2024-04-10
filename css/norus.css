@@ -1,4 +1,50 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    flex: 1 1 100vw;
+    height: 140px;
+    background: #713CA7;
+    margin: 0px;
+    padding: 0px;
+    align-self: baseline;
+    width: 100%;
+}
+
+#topo{
+    display: flex;
+    align-items: center;
+}
+
+.barra {
+    width: 70%;
+    height: 60px;
+    font-size: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.barra
+
+#bnt_home{
+    margin-left: 8%;
+}
+.bnt_home {
+    width: 60px;
+    
+}
 
 .backgrond{
     background-size: cover;
@@ -6,8 +52,6 @@
     width: 100%;
     max-width: 100%;
     height: 100%;
-}
-.backgrond{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +68,9 @@
 
 .cabeçalho-link{
     display: flex;
+    font-size: 26px;
     gap: 3rem;
+    justify-content: center;
 }
 
 .cabeçalho-link a{
@@ -69,7 +115,7 @@ section h1{
 }
 
 .cta{
-    background: url(material_visual/painelcj.jpg);
+    background: url(/material_visual/painelcj.jpg);
     background-position: center;
     background-size: cover;
     height: 60vh;
