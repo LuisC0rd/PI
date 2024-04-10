@@ -193,15 +193,20 @@ section h1{
     height: auto;
 }
 
+.container-rodapé{
+    
+    justify-content: space-around;
+    background: url(/material_visual/rodapé.png);
+    padding: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax (200px, auto));
+}
+
 .rodapé{
     display: flex;
-    gap: 4rem;
     justify-content: space-around;
-    background: url(material_visual/sketch-1707962381919.png);
-    padding: 8rem;
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (200px, auto));
+    gap: 4rem;
+    padding-top: 8rem;
+    margin-top: 4%;
 }
 
 .contato{
@@ -217,7 +222,7 @@ section h1{
 }
 
 .contato li a{
-    display: block;
+    
     color: #fff;
     font-weight: 600;
     transition: 0.35s ease;
@@ -256,3 +261,4 @@ section h1{
 h1{
     margin: 20px;
 }
+
