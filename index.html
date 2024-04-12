@@ -7,20 +7,23 @@
     <title>Norus - Roupas e acessórios esportivos - Seu desejo é uma ordem</title>
     <link rel="icon" href="norusicon.png">
     <link rel="stylesheet" href="css/norus.css">
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 
 <body>
     <header>
-        <div id="topo">
+        <div class="topo">
             <a href="index.html"><img src="material_visual/logonorus.png" width="140px"></a>
             <input type="text" class="barra" placeholder="Buscar">
             <div id="bnt_home">
-                <img class="bnt_home" class="bnt_home" src="material_visual/bnt_perfil.png">
-                <img class="bnt_home" class="bnt_home" src="material_visual/bnt_carrinho.png">
-                <img class="bnt_home" class="bnt_home" src="material_visual/bnt_like.png">
+                <img class="bnt_home" src="material_visual/bnt_perfil.png">
+                <img class="bnt_home" src="material_visual/bnt_carrinho.png">
+                <img class="bnt_home" src="material_visual/bnt_like.png">
             </div>
         </div>
-        <div class="background">
+        <div class="cabeçalho">
             <div class="cabeçalho-link">
                 <li><a href="norusesportes.html">Esportes<a></li>
                 <li><a href="noruscalçados.html">Calçados</a></li>
@@ -37,15 +40,28 @@
     <br>
     <hr>
     <br>
-    <br>
-    <br>
-    <br>
+    <section class="conteudo">
+        <article class="cont-home">
+            <div class="destaque" id="destaque">
+                <div class="cont-destaque">
+                    <img src="material_visual/painelLakers.png">
+                </div>
+                <div class="cont-destaque">
+                    <img src="material_visual/painelOlimpiadas.png">
+                </div>
+                <div class="cont-destaque">
+                    <img src="material_visual/painel3.jpg">
+                </div>
+            </div>
+        </article>
+    </section>
     <main>
         <section>
             <h1>NOVA COLEÇÃO NIKE</h1>
             <div class="container-roupasnike">
                 <img id="colin" src="material_visual/painel4.jpg">
-                <div class="roupanike"><img src="material_visual/regatanike.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/regatanike.jpg">
                     <p>Regata Nike Sportswear Masculina <br><s>Casual</s></p>
                     <br>
                     <h6> De <s>R$149,99</s></h6>
@@ -54,7 +70,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/calçanike.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/calçanike.jpg">
                     <p>Calça Nike Woven Tech Masculina <br><s>Casual</s></p>
                     <br>
                     <h5> Por <i>R$699,99</i></h5>
@@ -63,16 +80,18 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/bermudanike.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/bermudanike.jpg">
                     <p>Shorts Nike Club Flow Masculino<br><s>Casual</s></p>
                     <br>
-                    <h5> Por 299,99 <br><s>Casual</s></h5>
+                    <h5> Por 299,99</h5>
                     <br>
                     <img src="material_visual/bnt_carrinhopreto.png" width="30">
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/bermuda2nike.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/bermuda2nike.jpg">
                     <p>Regata Nike Sportswear Masculina <br><s>Casual</s></p>
                     <br>
                     <h5>Por R$499,99</h5>
@@ -222,6 +241,9 @@
         </div>
     </footer>
 
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/acoes.js"></script>
 </body>
 
 </html>

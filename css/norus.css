@@ -21,9 +21,10 @@ header {
     width: 100%;
 }
 
-#topo{
+.topo{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .barra {
@@ -43,27 +44,8 @@ header {
 }
 .bnt_home {
     width: 60px;
+    margin-left: 10px;
     
-}
-
-.backgrond{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    position: fixed;
-    transition: all .35s ease;
-    background-color: #fff;
-    padding: 14px 14%;
 }
 
 .cabeçalho-link{
@@ -81,10 +63,6 @@ header {
 
 .cabeçalho-link a:hover{
     color: #713CA7;
-}
-
-.section{
-    padding-top: 7rem;
 }
 
 section h1{
@@ -170,6 +148,8 @@ section h1{
     border-radius: 10px;
     transform: none;
     transition: none;
+    width: 664px;
+    height: 540px;
 }
 .container-roupasnike s{
     color: #9E9E9E;
@@ -179,6 +159,12 @@ section h1{
     background-color: #713CA7;
     color: #fff;
     border-radius: 10px;
+    height: 540px;
+}
+
+.roupas{
+    width: 300px;
+    height: 400px;
 }
 
 .marcas{
@@ -262,3 +248,20 @@ h1{
     margin: 20px;
 }
 
+main{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ 
+}
+ 
+.cont-destaque img{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 90px;
+}
