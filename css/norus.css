@@ -14,17 +14,42 @@ body{
 header {
     flex: 1 1 100vw;
     height: 140px;
-    background: #713CA7;
     margin: 0px;
     padding: 0px;
     align-self: baseline;
+    position: fixed;
+    z-index: 1000;
+    transition: all .35s ease;
+    top: 0;
     width: 100%;
+}
+
+/* display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    transition: all .35s ease;
+    background-color: #fff;
+    padding: 0; */
+
+hr{
+    color: #000;
+    size: 10px;
 }
 
 .topo{
     display: flex;
+    background-color: #713CA7;
     align-items: center;
     justify-content: center;
+}
+
+.cabeçalho{
+    background-color: #fff;
 }
 
 .barra {
@@ -168,7 +193,8 @@ section h1{
 }
 
 .marcas{
-    margin-top: 10rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
     cursor: pointer;
     align-items: center;
     text-align: center;
@@ -249,8 +275,15 @@ h1{
 }
 
 main{
-    width: 1400px;
-    margin: 0 auto;
+    width:100%;
+    margin-top: 100px;
+}
+
+.tamanho{
+   width: 1400px;
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 60px;
 }
 
 .conteudo {
@@ -259,9 +292,13 @@ main{
     padding: 0;
  
 }
+
+.cont-home{
+    width: 100%;
+}
  
 .cont-destaque img{
     width: 100%;
-    height: 600px;
+    margin-top: 98px;
     margin-bottom: 90px;
 }
