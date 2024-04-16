@@ -185,11 +185,13 @@ section h1{
     color: #fff;
     border-radius: 10px;
     height: 540px;
+    border: 2px solid #713CA7;
 }
 
 .roupas{
     width: 300px;
     height: 400px;
+    border-radius: 8px;
 }
 
 .marcas{
@@ -276,13 +278,12 @@ h1{
 
 main{
     width:100%;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .tamanho{
    width: 1400px;
    margin: 0 auto;
-   margin-top: 60px;
    margin-bottom: 60px;
 }
 
@@ -299,6 +300,5 @@ main{
  
 .cont-destaque img{
     width: 100%;
-    margin-top: 98px;
     margin-bottom: 90px;
 }
