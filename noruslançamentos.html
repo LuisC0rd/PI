@@ -12,26 +12,33 @@
 <body>
     <header>
         <div class="topo">
-            <a href="index.html"><img src="material_visual/logonorus.png" width="140px"></a>
-            <input type="text" class="barra" placeholder="Buscar">
             <div id="bnt_home">
-                <img class="bnt_home" src="material_visual/bnt_perfil.png">
-                <img class="bnt_home" src="material_visual/bnt_carrinho.png">
-                <img class="bnt_home" src="material_visual/bnt_like.png">
+                <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                <img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png">
             </div>
+            <a href="index.html"><img class="norusicone" src="material_visual/logonorus.png" width="140px"></a>
+            <input type="text" class="barra" placeholder="Buscar">
+
+            <a href="signin.html"><img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png"></a>
+            <img class="bnt_home" id="btnCarrinho" src="material_visual/bnt_carrinho.png">
+            <img class="bnt_home" id="btnPerfil" src="material_visual/bnt_like.png">
         </div>
-        <div class="cabeçalho">
-            <div class="cabeçalho-link">
-                <li><a href="norusesportes.html">Esportes<a></li>
-                <li><a href="noruscalçados.html">Calçados</a></li>
-                <li><a href="norusroupas.html">Roupas</a></li>
-                <li><a href="#">Acessórios</a></li>
-                <li><a href="#">Equipamentos</a></li>
-                <li><a href="#">Marcas</a></li>
-                <li><a href="noruslançamentos.html">Lançamentos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+        <menu>
+            <div class="cabeçalho">
+                <div class="cabeçalhoMob">
+                    <img src="material_visual/bnt_perfil.png" width="60px">
+                    <h4>Entre e Cadastre-se</h4>
+                </div>
+                <div class="cabeçalho-link">
+                    <li><a href="norusesportes.html">Esportes</a></li>
+                    <li><a href="noruscalçados.html">Calçados</a></li>
+                    <li><a href="norusroupas.html">Roupas</a></li>
+                    <li><a href="#">Equipamentos</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="noruslançamentos.html">Lançamentos</a></li>
+                </div>
             </div>
-        </div>
+        </menu>
         <hr>
     </header>
     <main>
@@ -39,7 +46,7 @@
             <h1>Produtos relacionados</h1>
             <div class="container-roupasnike">
                 <div class="roupanike">
-                    <img src="material_visual/camisasp.jpg" width="300">
+                    <img class="roupas" src="material_visual/camisasp.jpg" width="300">
                     <p>Camisa do São paulo II<br>24 New Balance<br>Masculina Torcedor</p>
                     <br>
                     <h6> De <s>R$499,99</s></h6>
@@ -49,7 +56,7 @@
                 </div>
 
                 <div class="roupanike">
-                    <img src="material_visual/camisanike.jpg" width="300">
+                    <img class="roupas" src="material_visual/camisanike.jpg" width="300">
                     <p>Camiseta Nike Dri-Fit -<br>Mascilina</p>
                     <br>
                     <h6> De <s>R$129,99</s></h6>
@@ -58,7 +65,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisnike3.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisnike3.jpg" width="300">
                     <p>Tenis Nike Revolution 6<br>- feminino</p>
                     <br>
                     <h6> De <s>R$399,99</s></h6>
@@ -67,7 +75,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisadidas3.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisadidas3.jpg" width="300">
                     <p>Tenis Adidas Grand<br>Court 2.0 - Júnior</p>
                     <br>
                     <h6> De <s>R$299,99</s></h6>
@@ -76,7 +85,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisnike4.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisnike4.jpg" width="300">
                     <p>Tenis Nike Revolution 7<br>- Mascilino</p>
                     <br>
                     <h6> De <s>R$399,99</s></h6>
@@ -85,7 +95,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisadidas2.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisadidas2.jpg" width="300">
                     <p>Tenis Nike Revolution 7<br>- Feminino</p>
                     <br>
                     <h6> De <s>R$399,99</s></h6>
@@ -94,7 +105,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/camisasp.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/camisasp.jpg" width="300">
                     <p>Camisa do São Paulo II<br>24 New Balance<br>Masculina Torcedor</p>
                     <br>
                     <br>
@@ -103,7 +115,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/roupapuma.png" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/roupapuma.png" width="300">
                     <p>Camisa Puma manga<br>Curta active Small<br>Logo - Masculina</p>
                     <br>
                     <br>
@@ -112,7 +125,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisnike7.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisnike7.jpg" width="300">
                     <p>Tenis Nike Infantil Flex<br>Runner 2 PSV</p>
                     <br>
                     <h6> De <s>R$349,99</s></h6>
@@ -121,7 +135,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisadidas2.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisadidas2.jpg" width="300">
                     <p>Tenis Adidas duramo<br>Speed - Masculino</p>
                     <br>
                     <h6> De <s>R$599,99</s></h6>
@@ -130,7 +145,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/teniscano.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/teniscano.jpg" width="300">
                     <p>Tenis Cano Alto<br>Converse All Star CT AS<br>Core HI CT0004</p>
                     <br>
                     <br>
@@ -139,7 +155,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisadidas7.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisadidas7.jpg" width="300">
                     <p>Tenis Adidas Runfalcon<br>3.0 - Masculino</p>
                     <br>
                     <h6> De <s>R$399,99</s></h6>
@@ -148,7 +165,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenisconverse.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenisconverse.jpg" width="300">
                     <p>Tenis Infantil Converse<br>All Star CT AS Core OX</p>
                     <br>
                     <br>
@@ -157,7 +175,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/tenismizuno.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/tenismizuno.jpg" width="300">
                     <p>Tenis Mizuno cool ride<br>- Masculino</p>
                     <br>
                     <h6> De <s>R$379,99</s></h6>
@@ -175,7 +194,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/roupacalça.jpg" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/roupacalça.jpg" width="300">
                     <p>Calça legging Adidas<br>TE 78 Tig - Feminino</p>
                     <br>
                     <h6> De <s>R$279,99</s></h6>
@@ -184,7 +204,8 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
 
-                <div class="roupanike"><img src="material_visual/roupaadriben.png" width="300">
+                <div class="roupanike">
+                    <img class="roupas" src="material_visual/roupaadriben.png" width="300">
                     <p>Camiseta Adriben Dry<br>Fit Proteção Solar Uv<br>Termica Academica</p>
                     <br>
                     <br>
@@ -193,12 +214,11 @@
                     <img src="material_visual/bnt_likedes.png" width="30">
                 </div>
             </div>
-            <section class="rodapé">
+    </main>
+    <footer class="container-rodape">
+        <div class="rodape">
+            <div class="coluna1">
                 <div class="contato">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
                     <h3>Norus</h3>
                     <h5>Encontre uma Loja Norus</h5>
                     <h5>Cadastre-se para receber novidades</h5>
@@ -211,45 +231,25 @@
                     <li><a href="#">Novidades</a></li>
                     <li><a href="#">Contato</a></li>
                 </div>
-            </section>
-        </section>
-
-        <footer class="container-rodapé">
-            <div class="rodapé">
-                <div class="coluna1">
-                    <div class="contato">
-                        <h3>Norus</h3>
-                        <h5>Encontre uma Loja Norus</h5>
-                        <h5>Cadastre-se para receber novidades</h5>
-                        <h5>Fale conosco</h5>
-                    </div>
-    
-                    <div class="contato">
-                        <h3>Explore</h3>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Novidades</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </div>
+            </div>
+            <div class="coluna1">
+                <div class="contato">
+                    <h3>Nossos serviços</h3>
+                    <li><a href="#">Frete grátis</a></li>
+                    <li><a href="#">Cartão presente</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Contato</a></li>
                 </div>
-                <div class="coluna1">
-                    <div class="contato">
-                        <h3>Nossos serviços</h3>
-                        <li><a href="#">Frete grátis</a></li>
-                        <li><a href="#">Cartão presente</a></li>
-                        <li><a href="#">Novidades</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </div>
-    
-                    <div class="contato">
-                        <h3>Lojas</h3>
-                        <li><a href="#">Lojas próximas</a></li>
-                        <li><a href="#">Trending shoes</a></li>
-                        <li><a href="#">Acessórios</a></li>
-                        <li><a href="#">Sale</a></li>
-                    </div>
+
+                <div class="contato">
+                    <h3>Lojas</h3>
+                    <li><a href="#">Lojas próximas</a></li>
+                    <li><a href="#">Trending shoes</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Sale</a></li>
                 </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 
 </body>

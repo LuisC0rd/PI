@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" contente="width-devide-width, initial-scale-1.0">
+    <link rel="icon" href="/norusicon.png">
+    <link rel="stylesheet" href="/css/norus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Norus - Roupas e acessórios esportivos - Seu desejo é uma ordem.</title>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <div id="bnt_home">
+                <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                <img class="bnt_home" id="imagemClicavel" src="/material_visual/bnt_perfil.png">
+            </div>
+            <a href="/index.html"><img class="norusicone" src="/material_visual/logonorus.png" width="140px"></a>
+            <input type="text" class="barra" placeholder="Buscar">
+
+            <a href="signin.html"><img class="bnt_home" id="imagemClicavel" src="/material_visual/bnt_perfil.png"></a>
+            <img class="bnt_home" id="btnCarrinho" src="/material_visual/bnt_carrinho.png">
+            <img class="bnt_home" id="btnPerfil" src="/material_visual/bnt_like.png">
+        </div>
+        <menu>
+            <div class="cabeçalho">
+                <div class="cabeçalhoMob">
+                    <img src="material_visual/bnt_perfil.png" width="60px">
+                    <h4>Entre e Cadastre-se</h4>
+                </div>
+                <div class="cabeçalho-link">
+                    <li><a href="/norusesportes.html">Esportes</a></li>
+                    <li><a href="/noruscalçados.html">Calçados</a></li>
+                    <li><a href="/norusroupas.html">Roupas</a></li>
+                    <li><a href="#">Equipamentos</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="/noruslançamentos.html">Lançamentos</a></li>
+                </div>
+            </div>
+        </menu>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div class="ContainerCompre tamanhoC">
+                <div class="roupa">
+                    <div class="tiposRoupas">
+                        <img class="normal-image"
+                            onclick="document.getElementById('foto').src='/material_visual/CalçaNikeWovenTechMasculina.avif';document.getElementById('corprod').innerText='Bege'"
+                            src="/material_visual/CalçaNikeWovenTechMasculina2.avif">
+                        <img class="normal-image"
+                            onclick="document.getElementById('foto').src='/material_visual/REGATA NIKE ONE DRI-FIT FEMININA2.webp';document.getElementById('corprod').innerText='Preto'"
+                            src="/material_visual/REGATA NIKE ONE DRI-FIT FEMININA2.webp">
+                    </div>
+                    <div>
+                        <img id="foto" class="painelRoupa"
+                            src="/material_visual/REGATA NIKE ONE DRI-FIT FEMININA1.webp">
+                    </div>
+                </div>
+                <div class="containerAnuncio">
+                    <div class="descriçaoAnuncio">
+                        <div class="nomeProduto">
+                            <h2>Calça Nike Woven<br>Tech Masculina</h2>
+                            <h4>Vendido e entregue por: <a href="noruslançamentos.html">Norus</a></h4>
+                        </div>
+                        <div class="estrelas">
+                            <img src="/material_visual/estrelacheia.png">
+                            <img src="/material_visual/estrelacheia.png">
+                            <img src="/material_visual/estrelacheia.png">
+                            <img src="/material_visual/estrelameia.png">
+                            <img src="/material_visual/estrela.png">
+                        </div>
+                        <div class="preco">
+                            <div>
+                                <h2>R$699,99 no Pix</h2>
+                            </div>
+                            <div>
+                                <p><b>-10%<b></p>
+                            </div>
+                        </div>
+                        <div class="preco2">
+                            <div>
+                                <h4>ou 1x de <b>R$76,99</b></h4>
+                            </div>
+                        </div>
+                        <div class="containerCor">
+                            <div>
+                                <h4>Cor do produto: <b id="corprod">Bege</b></h4>
+                            </div>
+                        </div>
+                        <div class="containerTamanhoRoupas">
+                            <div>
+                                <h2>Tamanho do produto</h2>
+                            </div>
+                            <div class="tamanhoRoupas">
+                                <p class="tamanhoRoupasOP"><b>P</b></p>
+                                <p class="tamanhoRoupasOP"><b>M</b></p>
+                                <p class="tamanhoRoupasOP"><b>G</b></p>
+                                <p class="tamanhoRoupasOP"><b>GG</b></p>
+                            </div>
+                        </div>
+                        <div class="containerCompra">
+                            <div class="btnCompra">
+                                <button><b>Comprar</b></button>
+                            </div>
+                            <div class="btnAdicionar">
+                                <button><b>Adicionar ao carrinho</b></button>
+                            </div>
+                        </div>
+                        <div class="containerFrete">
+                            <div class="frete">
+                                <h2>Calcule o frete</h2>
+                                <h4>Receba em casa ou retire grátis na loja</h4>
+                                <input type="search" placeholder="Digite o CEP">
+                                <button>Buscar</button>
+                                <a href="https://buscacepinter.correios.com.br/app/endereco/index.php"
+                                    target="_blank">Não sei meu CEP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerEspecificacoes tamanhoC">
+                <div>
+                    <div class="tabelas">
+                        <h2>Pincipais Características</h2>
+                        <table id="tabelaPrincipaisCCR" class="tabelaPC">
+                            <tbody>
+                                <tr class="descriçãoLinhas">
+                                    <th>GOLA</th>
+                                    <td>Tira interna que diminui o atrito de contato junto à pele
+                                        Careca</td>
+                                </tr>
+                                <tr class="descriçãoLinhas">
+                                    <th>COMPOSIÇÃO DO TECIDO</th>
+                                    <td>Poliéster</td>
+                                </tr>
+                                <tr class="descriçãoLinhas">
+                                    <th>GARANTIA DO FORNECEDOR</th>
+                                    <td>Contra Defeito de Fabricação</td>
+                                </tr>
+                                <tr>
+                                    <th>CONTEÚDO DA EMBALAGEM</th>
+                                    <td>1 Regata</td>
+                                </tr>
+                                <tr>
+                                    <th>SAC DO FORNECEDOR</th>
+                                    <td>NIKE: São Paulo: (11) 3020-8118 Demais localidades: 0800 703 6453</td>
+                                </tr>
+                                <tr>
+                                    <th>MODELAGEM</th>
+                                    <td>Aberturas Laterais que Fornecem um Melhor Caimento
+                                        Barra com Recorte Arredondado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tabelas">
+                        <h2>Dimensão e Peso</h2>
+                        <table id="tabelaPrincipaisCCR" class="tabelaDP">
+                            <tr class="trTamanho">
+                                <th>TAMANHO</th>
+                                <td>PP</td>
+                                <td>P</td>
+                                <td>M</td>
+                                <td>G</td>
+                                <td>GG</td>
+                            </tr>
+                            <tr>
+                                <th>LARGURA(cm)</th>
+                                <td>44</td>
+                                <td>46</td>
+                                <td>48</td>
+                                <td>50</td>
+                                <td>52</td>
+                            </tr>
+                            <tr>
+                                <th>ALTURA(cm)</th>
+                                <td>52</td>
+                                <td>54</td>
+                                <td>56</td>
+                                <td>58</td>
+                                <td>60</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-rodape">
+        <div class="rodape">
+            <div class="coluna1">
+                <div class="contato">
+                    <h3>Norus</h3>
+                    <h5>Encontre uma Loja Norus</h5>
+                    <h5>Cadastre-se para receber novidades</h5>
+                    <h5>Fale conosco</h5>
+                </div>
+
+                <div class="contato">
+                    <h3>Explore</h3>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Contato</a></li>
+                </div>
+            </div>
+            <div class="coluna1">
+                <div class="contato">
+                    <h3>Nossos serviços</h3>
+                    <li><a href="#">Frete grátis</a></li>
+                    <li><a href="#">Cartão presente</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Contato</a></li>
+                </div>
+
+                <div class="contato">
+                    <h3>Lojas</h3>
+                    <li><a href="#">Lojas próximas</a></li>
+                    <li><a href="#">Trending shoes</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Sale</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

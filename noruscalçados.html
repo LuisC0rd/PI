@@ -4,33 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" contente="width-devide-width, initial-scale-1.0">
-    <link rel="stylesheet" href="css/norus.css">
+    <link rel="icon" href="norusicon.png">
+    <link rel="stylesheet" href="/css/norus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Norus - Roupas e acessórios esportivos - Seu desejo é uma ordem.</title>
 </head>
 
 <body>
     <header>
         <div class="topo">
-            <a href="index.html"><img src="material_visual/logonorus.png" width="140px"></a>
-            <input type="text" class="barra" placeholder="Buscar">
             <div id="bnt_home">
-                <img class="bnt_home" src="material_visual/bnt_perfil.png">
-                <img class="bnt_home" src="material_visual/bnt_carrinho.png">
-                <img class="bnt_home" src="material_visual/bnt_like.png">
+                <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                <img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png">
             </div>
+            <a href="index.html"><img class="norusicone" src="material_visual/logonorus.png" width="140px"></a>
+            <input type="text" class="barra" placeholder="Buscar">
+
+            <a href="signin.html"><img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png"></a>
+            <img class="bnt_home" id="btnCarrinho" src="material_visual/bnt_carrinho.png">
+            <img class="bnt_home" id="btnPerfil" src="material_visual/bnt_like.png">
         </div>
-        <div class="cabeçalho">
-            <div class="cabeçalho-link">
-                <li><a href="norusesportes.html">Esportes<a></li>
-                <li><a href="noruscalçados.html">Calçados</a></li>
-                <li><a href="norusroupas.html">Roupas</a></li>
-                <li><a href="#">Acessórios</a></li>
-                <li><a href="#">Equipamentos</a></li>
-                <li><a href="#">Marcas</a></li>
-                <li><a href="noruslançamentos.html">Lançamentos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+        <menu>
+            <div class="cabeçalho">
+                <div class="cabeçalhoMob">
+                    <img src="material_visual/bnt_perfil.png" width="60px">
+                    <h4>Entre e Cadastre-se</h4>
+                </div>
+                <div class="cabeçalho-link">
+                    <li><a href="norusesportes.html">Esportes</a></li>
+                    <li><a href="noruscalçados.html">Calçados</a></li>
+                    <li><a href="norusroupas.html">Roupas</a></li>
+                    <li><a href="#">Equipamentos</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="noruslançamentos.html">Lançamentos</a></li>
+                </div>
             </div>
-        </div>
+        </menu>
         <hr>
     </header>
     <main>
@@ -217,8 +226,8 @@
                 </div>
             </div>
         </section>
-        <footer class="container-rodapé">
-            <div class="rodapé">
+        <footer class="container-rodape">
+            <div class="rodape">
                 <div class="coluna1">
                     <div class="contato">
                         <h3>Norus</h3>
@@ -226,7 +235,7 @@
                         <h5>Cadastre-se para receber novidades</h5>
                         <h5>Fale conosco</h5>
                     </div>
-
+    
                     <div class="contato">
                         <h3>Explore</h3>
                         <li><a href="#">Home</a></li>
@@ -242,7 +251,7 @@
                         <li><a href="#">Novidades</a></li>
                         <li><a href="#">Contato</a></li>
                     </div>
-
+    
                     <div class="contato">
                         <h3>Lojas</h3>
                         <li><a href="#">Lojas próximas</a></li>

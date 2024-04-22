@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/signin.css" />
+  <link rel="stylesheet" href="css/norus.css">
+  <title>Singin</title>
+</head>
+
+<body>
+  <header>
+    <div class="topo">
+      <div id="bnt_home">
+        <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png">
+      </div>
+      <a href="index.html"><img class="norusicone" src="material_visual/logonorus.png" width="140px"></a>
+      <input type="text" class="barra" placeholder="Buscar">
+
+      <a href="signin.html"><img class="bnt_home" id="imagemClicavel" src="material_visual/bnt_perfil.png"></a>
+      <img class="bnt_home" id="btnCarrinho" src="material_visual/bnt_carrinho.png">
+      <img class="bnt_home" id="btnPerfil" src="material_visual/bnt_like.png">
+    </div>
+    <menu>
+      <div class="cabeçalho">
+        <div class="cabeçalhoMob">
+          <img src="material_visual/bnt_perfil.png" width="60px">
+          <h4>Entre e Cadastre-se</h4>
+        </div>
+      </div>
+    </menu>
+  </header>
+  
+  <div class="container">
+    <div class="card">
+      <div class="titulosh1">
+        <h1>Bem vindo de volta</h1>
+        <p>Entre e aproveite o melhor da Centauro</p>
+      </div>
+
+      <div id="msgError"></div>
+
+      <div>
+        <h4>Informe aqui seu CPF, CNPJ ou e-mail</h4>
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder="CPF, CNPJ ou e-mail" />
+          <label id="userLabel" for="usuario"></label>
+        </div>
+      </div>
+
+      <div>
+        <h4>Informe sua senha</h4>
+        <div class="label-float">
+          <input type="password" id="senha" placeholder="Senha" required />
+          <label id="senhaLabel" for="senha"></label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div>
+        <div class="justify-center">
+          <button onclick="entrar()">
+            <a href="#">Entrar</a>
+          </button>
+        </div>
+
+        <div class="justify-center">
+          <button>
+            <a href="signup.html">
+              Criar uma conta Norus
+            </a>
+          </button>
+        </div>
+
+        <div class="texto">
+          <div class="hrs"></div>
+          <p>ou</p>
+          <div class="hrs"></div>
+        </div>
+
+        <div class="justify-center">
+          <button class="bnt">
+            <img class="icongoogle" src="material_visual/gicon.png">
+            <a href="#">Entrar com Google</a>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/signin.js"></script>
+</body>
+
+</html>
