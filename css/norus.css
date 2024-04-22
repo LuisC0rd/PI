@@ -193,7 +193,9 @@ section h1 {
 
 #painelCJJJ img {
     position: relative;
-    width: 1420px;
+    width: 1900px;
+    margin-top: 600px;
+    margin-bottom: 800px;
 }
 
 .cta {
@@ -314,9 +316,23 @@ section h1 {
     cursor: pointer;
     align-items: center;
     text-align: center;
+    display: flex;
 }
 
 .marcas img {
+    width: 80px;
+    height: auto;
+}
+
+.marcass {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.marcass img {
     width: 180px;
     height: auto;
 }
@@ -712,6 +728,10 @@ h1 {
     transform: scale(1.2);
 }
 
+.noo{
+    display: none;
+}
+
 @media(max-width: 1280px) {
     .tamanho {
         width: 1200px;
@@ -897,6 +917,175 @@ h1 {
 
     .containerAnuncio{
         margin-top: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .noMob{
+        display: none;
+    }
+    header {
+        height: 100px;
+        margin-bottom: 0;
+    }
+
+    .tamanho {
+        width: 360px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    
+    .tamanhoC{
+        width: 500px;
+    }
+
+    .topo {
+        display: flex;
+        background-color: #713CA7;
+        justify-content: left;
+        height: 100px;
+    }
+
+    #bnt_home {
+        display: inherit;
+    }
+
+    .norusicone {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .bnt_home,
+    .barra {
+        display: none;
+    }
+
+    #btnCarrinho {
+        display: inherit;
+        margin-left: 48%;
+    }
+
+    #iconMenu {
+        color: white;
+        cursor: pointer;
+        min-height: 40px;
+        display: inherit;
+        overflow: hidden;
+        line-height: 40px;
+        padding-left: 1%;
+        font-size: 40px;
+    }
+
+    nav {
+        min-height: 40px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        overflow: hidden;
+        line-height: 40px;
+        padding-left: 1%;
+    }
+
+    nav a:link,
+    nav a:visited,
+    #iconMenu:link,
+    #iconMenu:visited {
+        text-decoration: none;
+        color: white;
+        transition: background-color 1s;
+        min-height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    menu {
+        display: none;
+        flex-direction: column;
+        align-items: left;
+        background-color: #fff;
+        position: absolute;
+        width: 70%;
+        top: 100%;
+    }
+
+    .cabeçalho-link {
+        display: flex;
+        flex-direction: column;
+        align-items: left;/
+    }
+
+    .cabeçalho-link a {
+        color: #111;
+        font-weight: 700;
+        transition: 0.3s;
+        padding: 10px;
+    }
+
+    .cabeçalho-link a:hover {
+        color: #713CA7;
+    }
+
+    .cabeçalhoMob {
+        display: inherit;
+    }
+
+    .cabeçalhoMob {
+        background-color: #713CA7;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    .contMob{
+        display: inherit;
+    }
+
+    .marcas img {
+        width: 40px;
+        height: auto;
+    }
+
+    .container-bffc{
+        display: none;
+    }
+
+    .cards img{
+        width: 380px;
+    }
+
+    .rodape {
+        flex-wrap: wrap;
+    }
+
+    .roupa{
+        display: block;
+    }
+
+    .tiposRoupas{
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .painelRoupa{
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .frete button{
+        margin-right: 60px;
+    }
+
+    .noo{
+        display: inherit;
+    }
+
+    contMob{
+        display: inherit;
     }
 }
 @media screen and (max-width: 480px) {
